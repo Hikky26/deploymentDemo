@@ -1,5 +1,8 @@
-const btn = document.querySelector('button')
+const catbtn = document.querySelector('#cat')
+const dogbtn = document.querySelector("#dog")
 
 const clickHandler = () => alert('The cat name is: Rascal')
+const dogHandler = () => alert('The dog name is doug')
 
-btn.addEventListener('click', clickHandler)
+catbtn.addEventListener('click', clickHandler)
+dogbtn.addEventListener('click', dogHandler)
